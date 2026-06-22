@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CosmoBytes — Cosmic facts in 30 seconds. Daily YouTube shorts about black holes, galaxies, exoplanets, and the universe's strangest phenomena.">
+  <title>CosmoBytes — Cosmic Facts in 30 Seconds</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(ellipse at top, #1a0a3e 0%, #04061c 60%, #000000 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image:
+        radial-gradient(2px 2px at 20% 30%, #fff, transparent),
+        radial-gradient(2px 2px at 80% 10%, #ffdcff, transparent),
+        radial-gradient(1px 1px at 50% 60%, #fff, transparent),
+        radial-gradient(2px 2px at 90% 70%, #b0c4ff, transparent),
+        radial-gradient(1px 1px at 30% 80%, #fff, transparent);
+      background-size: 400px 400px;
+      opacity: 0.5; z-index: 0;
+    }
+    .content { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; }
+    .logo {
+      width: 140px; height: 140px;
+      background: radial-gradient(circle at 30% 30%, #c77dff 0%, #7b2cbf 60%, #3a0ca3 100%);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 64px; font-weight: 900; color: #fff;
+      box-shadow: 0 0 60px rgba(199, 125, 255, 0.5);
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 56px; font-weight: 900;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+      background: linear-gradient(120deg, #ffffff, #c77dff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .tagline {
+      font-size: 22px; opacity: 0.85;
+      margin-bottom: 40px; text-align: center;
+    }
+    .description {
+      max-width: 720px;
+      font-size: 18px; line-height: 1.7;
+      margin-bottom: 50px; text-align: center;
+      opacity: 0.85;
+    }
+    .cta {
+      display: inline-block;
+      background: #ff0000;
+      color: #fff;
+      padding: 18px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700; font-size: 18px;
+      box-shadow: 0 4px 20px rgba(255, 0, 0, 0.4);
+      transition: transform 0.2s;
+    }
+    .cta:hover { transform: translateY(-2px); }
+    .topics {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      justify-content: center; margin: 50px 0 30px;
+      max-width: 700px;
+    }
+    .topic {
+      background: rgba(199,125,255,0.15);
+      padding: 12px 22px; border-radius: 25px;
+      font-size: 15px;
+      border: 1px solid rgba(199,125,255,0.3);
+    }
+    footer {
+      margin-top: auto; padding-top: 60px;
+      opacity: 0.5; font-size: 14px; text-align: center;
+    }
+    a { color: #c77dff; }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="logo">CB</div>
+    <h1>CosmoBytes</h1>
+    <p class="tagline">Cosmic facts in 30 seconds 🌌</p>
+    <p class="description">
+      Black holes 66 billion times the Sun, neutron stars spinning 700× per second, exoplanets
+      that orbit two suns, galaxies trapped in cosmic webs. The universe's strangest phenomena —
+      explained daily on YouTube.
+    </p>
+    <div class="topics">
+      <div class="topic">⚫ Black Holes</div>
+      <div class="topic">🌀 Galaxies</div>
+      <div class="topic">🪐 Exoplanets</div>
+      <div class="topic">✨ Nebulae</div>
+      <div class="topic">🌌 Deep Space</div>
+    </div>
+    <a href="https://youtube.com/@CosmoBytes?sub_confirmation=1" class="cta" target="_blank">
+      Subscribe on YouTube →
+    </a>
+    <footer>
+      © 2026 CosmoBytes · <a href="mailto:emreceylan55555@gmail.com">Contact</a> ·
+      <a href="https://youtube.com/@CosmoBytes">YouTube</a>
+    </footer>
+  </div>
+</body>
+</html>
